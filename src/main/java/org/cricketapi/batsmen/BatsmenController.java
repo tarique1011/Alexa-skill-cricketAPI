@@ -15,6 +15,14 @@ public class BatsmenController {
 	@Autowired
 	private BatsmenService batsmenService;
 	
+	@RequestMapping("/")
+	public String welcome()
+	{
+		return "Welcome";
+	}
+	
+	
+	
 	
 	@RequestMapping("/batsmen")
 	public List<Batsmen> getAllBatsmen()
