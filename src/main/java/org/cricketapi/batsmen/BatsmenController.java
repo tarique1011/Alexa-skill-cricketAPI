@@ -21,7 +21,7 @@ public class BatsmenController {
 	@RequestMapping("/")
 	public String welcome()
 	{
-		return "<h1>"+"Welcome To Cricket API"+"</h1>";
+		return "<h1>"+"Welcome To Cricket API"+"</h1>"+"<br>"+"<h2>"+"By Tarique Javaid"+"</h2>";
 	}
 	
 	
