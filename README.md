@@ -1,1 +1,1 @@
-# Cricket-RestAPI
+# Alexa-skill-cricketAPI
