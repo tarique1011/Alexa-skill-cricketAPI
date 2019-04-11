@@ -4,14 +4,20 @@
 
 ## API endpoints
 * `GET` `https://cricket-rest-api.herokuapp.com/`
+
 Homepage for the API
 * `GET` `https://cricket-rest-api.herokuapp.com/batsmen/country/{CountryName}`
+
 Returns a JSON object containing list of players from the {CountryName}
 * `GET` `https://cricket-rest-api.herokuapp.com/age/{Age}`
+
 Reurns a JSON object containing list of players having age above {Age}
 * `GET` `https://cricket-rest-api.herokuapp.com/batsmen/runs`
+
 Returns a JSON object containing the player having maximum runs from all countries
+
 * `GET` `https://cricket-rest-api.herokuapp.com/batsmen/{CountryName}/runs`
+
 Returns a JSON object containing the player having maximum runs from {CountryName}
 
 ## Alexa Skill 
