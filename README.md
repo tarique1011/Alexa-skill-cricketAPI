@@ -3,26 +3,27 @@
 ### Repo for Alexa skill that I created for an earlier deployed cricket API that I had developed for learning purposes.
 
 ## API endpoints
-* `GET` `https://cricket-rest-api.herokuapp.com/`
+`GET` `https://cricket-rest-api.herokuapp.com/`
 
 Homepage for the API
-* `GET` `https://cricket-rest-api.herokuapp.com/batsmen/country/{CountryName}`
+`GET` `https://cricket-rest-api.herokuapp.com/batsmen/country/{CountryName}`
 
 Returns a JSON object containing list of players from the {CountryName}
-* `GET` `https://cricket-rest-api.herokuapp.com/age/{Age}`
+`GET` `https://cricket-rest-api.herokuapp.com/age/{Age}`
 
 Reurns a JSON object containing list of players having age above {Age}
-* `GET` `https://cricket-rest-api.herokuapp.com/batsmen/runs`
+`GET` `https://cricket-rest-api.herokuapp.com/batsmen/runs`
 
 Returns a JSON object containing the player having maximum runs from all countries
 
-* `GET` `https://cricket-rest-api.herokuapp.com/batsmen/{CountryName}/runs`
+`GET` `https://cricket-rest-api.herokuapp.com/batsmen/{CountryName}/runs`
 
 Returns a JSON object containing the player having maximum runs from {CountryName}
 
 ## Alexa Skill 
 
 Created an Alexa skill to access the API endpoints on voice commands using various Intents.
+
 `CountryIntent` 
 > _Alexa, tell me players from {CountryName}_
 
